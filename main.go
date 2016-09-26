@@ -11,6 +11,6 @@ func main() {
 }
 
 //export GoFunction
-func GoFunction() {
+func GoFunction(str *C.char) {
   fmt.Println("Hello from GoFunction!")
 }

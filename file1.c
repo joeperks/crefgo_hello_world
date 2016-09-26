@@ -4,6 +4,6 @@
 int CFunction() {
   char message[] = "Hello World from CFunction!";
   printf("CFunction says: %s\n", message);
-  GoFunction();
+  GoFunction(message);
   return 0;
 }
